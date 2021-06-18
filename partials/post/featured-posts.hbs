@@ -1,4 +1,8 @@
+{{#get "posts" limit="3" include="tags,authors" filter="featured:true"}}
+   {{#foreach posts visibility="all"}}
     <div class="col-12 col-sm-4">
       <img src="{{img_url feature_image}}" alt="{{title}}" class="logo-section icon-inline" />
       <p>{{excerpt}}.</p>
     </div>
+    {{/foreach}}
+{{/get}}
