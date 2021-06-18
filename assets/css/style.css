@@ -921,7 +921,11 @@ POST/ARTICLE HEADERS
 }
 
 .post-content a {
-  color: var(--url-color);
+  color: var(--font-color-primary);
+}
+
+.post-content a:hover {
+  color: var(--accentcolor);
 }
 
 article {

@@ -4,7 +4,7 @@
             <div class="col-sm-4 related-item">
               <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "
                   images/fallback-image.jpg"}}{{/if}}" class="homepage-image w-100" alt="{{title}}" title="{{title}}"></a>
-              <a href="{{url}}" title="{{title}}" class="text-center post-title">{{title}}</a>
+              <p class="featured-title text-truncate"><a href="{{url}}" title="{{title}}" class="text-center post-title">{{title}}</a></p>
               <p>{{excerpt}}</p>
               <hr />
               <div class="post-options">
