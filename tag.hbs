@@ -2,7 +2,7 @@
 <div class="tag_head_wrap">
     {{#tag}}
     <div class="tag_heading text-center">
-        <img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" alt="{{name}}" title="{{name}}" class="tag-image" />
+        <img src="{{#if feature_image}}{{img_url feature_image}}{{/if}}" alt="{{name}}" title="{{name}}" class="tag-image" />
         <h1 class="text-center tag-title">{{name}}</h1>
         {{#if description}}<p class="tag-description">{{description}}</p>{{/if}}
     </div>
