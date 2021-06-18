@@ -475,13 +475,7 @@ h4 {
 }
 
 .logo-section {
-  max-height: 50px;
-  max-width: 150px;
-  filter: grayscale(100);
-}
-
-.logo-section:hover {
-  filter: grayscale(0);
+  max-width: 100%;
 }
 
 .feature-section {
