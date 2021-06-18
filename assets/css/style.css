@@ -718,7 +718,6 @@ POST/ARTICLE CARD UI - main
 }
 
 .post-title {
-  margin-top: 35px;
   color: var(--font-color-primary);
   font-weight: 600;
   font-family: "Hind Madurai", sans-serif !important;
