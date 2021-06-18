@@ -15,9 +15,13 @@
 </div>
 <div class="main-top-content container-fluid content-wrap row text-center">
   <h1 class="top-leadin text-center">The newest topics influencing your opinion on tech.</h1>
-  <p class="subtext-home">Looking for a interesting read on a topic in technology? Check out a few of the latest posts.</p>
-  <div class="row feature-section">
-      {{> "post/featured-posts"}}
-  </div>
-  <a class="button-url-bg hvr-grow" href="/works">View more posts</a>
 </div>
+
+  <div class="col-12" id="allposts">
+   <div class="main-content content-wrap">
+    {{> 'post/card-basic'}}
+    {{#if pagination}}
+    {{pagination}}
+    {{/if}}
+  </div>
+  </div>
