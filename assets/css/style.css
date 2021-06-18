@@ -756,6 +756,7 @@ a
 	color: #979797;
 	display: flex;
 	align-items: center;
+  margin-left: 3px;
 }
 
 .post-options-inside-wrap {
