@@ -1,0 +1,36 @@
+{{!< default}} {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+<div class="row">
+  <h1 class="top-title">Blog</h1>
+  <div class="col-12">
+    <div class="main-content">
+      <div class="row">
+        {{#foreach posts}}
+          <div class="card max-content-width post-access-{{visibility}} col-12 col-sm-12 col-md-4">
+              <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "
+              images/fallback-image.jpg"}}{{/if}}" class="homepage-image homepage-image-blog w-100" alt="{{title}}" title="{{title}}"></a>
+              <div class="card-block">
+                  <h1 class="card-title"><a href="{{url}}" title="{{title}}">{{title}}</a></h1>
+                  <p class="card-text">{{excerpt}}</p>
+              </div>
+              <div class="post-options">
+                  <a class="post-options-url" href="{{url}}"><i class="fas fa-play"></i>{{t "Read More"}}</a>
+                  {{#has visibility="paid"}}<span class="premium-badge">{{t "Premium"}}</span>{{/has}}{{#has visibility="members"}}<span class="members-badge">{{t "Members-Only"}}</span>{{/has}}
+
+                  <time datetime="{{date format=" YYYY-MM-DD"}}" class="post-item-main">{{date format="DD MMMM YYYY"}}</time>
+                  <div class="post-author">
+                  {{#foreach authors}}
+                  <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}"
+                  class="homepage-avatar" alt="{{name}}" title="{{name}}">
+                  <a href="{{url}}" title="{{t "Written by"}} {{name}}" class="author-name">{{name}}</a>
+                  {{/foreach}}
+              </div>
+              </div>
+          </div>
+          {{/foreach}}
+      </div>
+      {{#if pagination}}
+      {{pagination}}
+      {{/if}}
+      </div>
+    </div>
+  </div>

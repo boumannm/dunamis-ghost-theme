@@ -1,0 +1,31 @@
+{
+  "name": "alpha",
+  "description": "Alpha for Ghost.",
+  "version": "1.0.0",
+  "engines": {
+      "ghost": ">=4.1.0",
+      "ghost-api": "v4"
+  },
+  "license": "MIT",
+  "screenshots": {
+    "desktop": "assets/screenshot-desktop.png",
+    "mobile": "assets/screenshot-mobile.png"
+  },
+  "author": {
+    "name": "SpookThemes",  
+    "email": "support@spookthemes.com",
+    "url": "https://spookthemes.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boumannm/alpha-ghost-theme.git"
+  },
+  "bugs": "https://github.com/boumannm/alpha-ghost-theme.git/issues",
+  "config": {
+      "posts_per_page": 6
+  },
+  "keywords": [
+    "ghost-theme",
+    "blog"
+  ]
+}

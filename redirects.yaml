@@ -1,0 +1,12 @@
+[
+  {
+    "from": "/tag/blog/",
+    "to":"/blog/",
+    "permanent":true
+  },
+    {
+    "from": "/privacy/",
+    "to":"/about/privacy/",
+    "permanent":true
+  }
+]

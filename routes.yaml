@@ -1,0 +1,21 @@
+routes:
+  /: home
+  /works/zen/: page-zen
+  /works/kipper/: page-kipper
+  /works/larua/: page-larua
+  /works/novavi/: page-novavi
+  /about/privacy/: page-privacy
+
+collections:
+  /:
+    permalink: /{slug}/
+    template: index
+    filter: primary_tag:-blog
+  /blog/:
+    permalink: /blog/{slug}/
+    template: blog
+    filter: primary_tag:blog
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/

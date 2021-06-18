@@ -1,0 +1,29 @@
+{{#is "post, page"}}
+    {{#get "posts" limit="3" filter="id:-{{id}}+tag:{{primary_tag.slug}}" as |related|}}
+
+    <div class="related max-content-width">
+        <h2 class="related-header">{{t "Related"}}</h2>
+        <div class="row">  
+            {{#foreach related}}
+                <div class="col-sm-4 related-item">
+                        <a href="{{url}}">
+                            <img class="d-block row-item-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "
+                                images/fallback-image.jpg"}}{{/if}}" alt="{{title}}" title="{{title}}">
+                        </a>
+                        <div class="small-post-wrap">
+                            <p class="featured-title text-truncate">
+                                <a href="{{url}}">{{title}}</a>
+                            </p>
+                            <p class="post-options post-options-inside-wrap">
+                                <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
+                            </p>
+                        </div>
+
+                    </div>
+            {{else}}
+                <p>{{t "No related posts found"}}</p>
+            {{/foreach}}
+        </div>
+    </div>
+{{/get}}
+{{/is}}

@@ -1,0 +1,46 @@
+<header class="home-style">
+		<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container-fluid content-wrap">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTop" aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fas fa-bars"></i>
+			</button>
+			<a href="/" class="header-url navbar-brand">
+				{{#if @site.logo}}
+				<img src="{{@site.logo}}" alt="{{@site.title}}" title="{{@site.title}}" class="logo-nav head-logo left" />
+				{{else}}
+				<img src="{{@site.icon}}" alt="{{@site.title}}" title="{{@site.title}}" class="logo-nav head-logo left" />
+				{{/if}}
+			</a>
+
+			<div class="collapse navbar-collapse" id="navbarTop">
+				<div class="navbar-nav">      
+					<!-- Loop through the navigation items -->
+					{{#foreach navigation}}
+					<li class="nav-item{{#if current}} active{{/if}}">
+							<a href="{{url absolute="true"}}" class="nav-link">{{label}}</a>
+					</li>
+					{{/foreach}}
+					<!-- End the loop -->
+					<!--
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							{{t "More"}}
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							{{#if @member}}
+							<a class="nav-link dropdown-item" href="{{@site.url}}/#/portal/account">{{t "My Account"}}</a>
+							<a class="nav-link dropdown-item" href="javascript:" data-members-signout>{{t "Sign-out"}}</a>
+							{{else}}
+							<a class="nav-link dropdown-item" href="{{@site.url}}/#/portal/signin">{{t "Sign-in"}}</a>
+							<a class="nav-link dropdown-item" href="{{@site.url}}/#/portal/signup">{{t "Sign-up"}}</a>
+							<a class="nav-link dropdown-item" href="{{@site.url}}/blog">Blog</a>
+							{{/if}}
+						</div>
+					</li>-->
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>
+
+

@@ -1,0 +1,22 @@
+{{!< default}}
+{{#author}}
+  <div class="author_wrap w-100 text-center">
+    <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}"
+      class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
+    <h2 class="posttitle posttitle-author">{{name}}</h2>
+    <div class="socialfooter-top text-center socialfooter-top-author">
+      {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i
+          class="fab fa-facebook-square fa-facebook-author fa-2x"></i></a>{{/if}}
+      {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i
+          class="fab fa-twitter-square fa-twitter-author fa-2x"></i></a>{{/if}}
+    </div>
+  </div>
+{{/author}}
+<hr class="fancy-hr" />
+<div class="main-content">
+    <h1 class="text-center post-title">{{t "Newest Posts"}}</h1>
+    {{> 'post/card-basic'}}
+    {{#if pagination}}
+     {{pagination}}
+    {{/if}}
+</div>
