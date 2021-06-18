@@ -14,40 +14,15 @@
   </div>
 </div>
 <div class="main-top-content container-fluid content-wrap row text-center">
-  <h1 class="top-leadin text-center">Beautiful and dynamic themes for your Ghost setup.</h1>
-  <p class="subtext-home">You have done the initial Ghost installation, you imported your content...now what? For a good user experience you need a solid theme to reflect your brand. SpookThemes has created several themes that can potentially match your style and requirements. If that's not the case try getting in touch to see what we can do for eachother.</p>
+  <h1 class="top-leadin text-center">The newest topics influencing your opinion on tech.</h1>
+  <p class="subtext-home">Looking for a interesting read on a topic in technology? Check out a few of the latest posts.</p>
   <div class="row feature-section">
-    <div class="col-12 col-sm-4">
-      <img src="{{asset "images/platform/ghost.png"}}" alt="Ghost logo" class="logo-section icon-inline" />
-      <p><b>Ghost 4.0</b> - All of SpookThemes Ghost themes are now ready for Ghost 4.0+. This includes new features such as accent-colors and members-support.</p>
-    </div>
-    <div class="col-12 col-sm-4">
-      <i class="fas fa-pen fa-3x icon-inline"></i>
-      <p><b>Custom themes</b> - SpookThemes creates custom themes to match your requirements and style. Or if it already fits your style, try picking a theme that's already available from the Works page.</p>      
-    </div>
-    <div class="col-12 col-sm-4">
-      <i class="fab fa-github fa-3x icon-inline"></i>
-      <p><b>Open-Source</b> - Where possible we strive to make (Premium) themes open-source one way or another (ie. less features). Open-source is a important value for SpookThemes and will always be a part of the platform.</p>  
-    </div>
+    {{#get "posts" limit="3" include="tags,authors" filter="featured:true"}}
+   {{#foreach posts visibility="all"}}
+      {{> "featured-posts"}}
+      {{/foreach}}
+
+    {{/get}}
   </div>
   <a class="button-url-bg hvr-grow" href="/works">Check out SpookThemes</a>
-</div>
-<hr class="fancy-hr" />
-<div class="platform-section main-top-content container-fluid content-wrap row text-center">
-  <h1 class="top-leadin text-center">A Universal Ghost Theme Platform.</h1>
-  <p class="subtext-home">We use a wide variety of open-source tools and libraries to manage our platform. This so we can create a consistent and solid experience across several different themes and designs.</p>
-  <div class="row flex-center">
-    <div class="col-12 col-sm-6 col-md-3">
-      <a href="https://ghost.org" target="_blank" rel="noreferrer noopener"><img src="{{asset "images/platform/ghost.png"}}" alt="Ghost logo" class="logo-section" /></a>
-    </div>
-    <div class="col-12 col-sm-6 col-md-3">
-      <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer noopener"><img src="{{asset "images/platform/bootstrap_logo.png"}}" alt="Bootstrap logo" class="logo-section" /></a>
-    </div>
-    <div class="col-12 col-sm-6 col-md-3">
-      <a href="https://fontawesome.com/" target="_blank" rel="noreferrer noopener"><img src="{{asset "images/platform/Font_Awesome_5_logo.png"}}" alt="FontAwesome logo" class="logo-section" /></a>
-    </div>
-    <div class="col-12 col-sm-6 col-md-3">
-      <a href="https://purecss.io" target="_blank" rel="noreferrer noopener"><img src="{{asset "images/platform/purecss.png"}}" alt="Pure CSS logo" class="logo-section" /></a>
-    </div>
-  </div>
 </div>
