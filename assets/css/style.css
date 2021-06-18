@@ -1068,7 +1068,7 @@ img.avatar {
 
 .tagslist a {
 	text-decoration: none;
-	color: var(--font-color-primary-alt);
+	color: white;
 	text-transform: uppercase;
 	background: var(--accentcolor);
 	padding: 10px;
@@ -1079,7 +1079,7 @@ img.avatar {
 }
 
 .tagslist a:hover {
-  color: var(--accentcolor);
+  color: white;
   text-decoration: none;
 }
 
