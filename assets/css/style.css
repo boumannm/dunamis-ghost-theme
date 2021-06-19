@@ -302,7 +302,7 @@ h4 {
 
 .heading-leadin {
   font-size: 1.35rem;
-  font-family: 'Fira Sans', sans-serif !important;
+  font-family: 'Crimson Text', serif !important;
 }
 
 .top-title {
@@ -362,7 +362,6 @@ h4 {
   font-family: 'Crimson Text', serif !important;
   font-size: 1.4rem !important;
   font-weight: 700;
-  margin-top: 50px;
   margin-bottom: 50px;
 }
 
