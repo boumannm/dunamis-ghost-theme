@@ -428,6 +428,16 @@ h4 {
   padding-right: 0;
 }
 
+.dropdown-item {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.dropdown-item:hover {
+  background: var(--accentcolor);
+  color: var(--accentcolor-2);
+}
+
 .nav-link {
   font-size: 1.2rem;
   font-weight: 600;
