@@ -1,6 +1,6 @@
 {{!< default}}
 {{#author}}
-  <div class="author_wrap w-100 text-center">
+  <div class="author_wrap w-100 text-center home-style">
     {{#if profile_image}}<img src="{{img_url profile_image}}"{{/if}}
       class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
     <h2 class="posttitle posttitle-author">{{name}}</h2>
@@ -12,7 +12,6 @@
     </div>
   </div>
 {{/author}}
-<hr class="fancy-hr" />
 <div class="main-content content-wrap">
     {{> 'post/card-basic'}}
     {{#if pagination}}
