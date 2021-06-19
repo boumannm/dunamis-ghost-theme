@@ -429,7 +429,9 @@ h4 {
 }
 
 .dropdown-menu {
-  background: var(--accentcolor-2);
+  background: var(--offset-color);
+  padding: 0;
+  border-radius: 10px;
 }
 
 .dropdown-item {
