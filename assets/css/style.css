@@ -1097,7 +1097,7 @@ img.avatar {
 }
 
 .tagslist a:hover {
-  color: white;
+  color: var(--accentcolor-2);
   text-decoration: none;
 }
 
