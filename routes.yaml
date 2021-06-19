@@ -1,10 +1,5 @@
 routes:
   /: home
-  /works/zen/: page-zen
-  /works/kipper/: page-kipper
-  /works/larua/: page-larua
-  /works/novavi/: page-novavi
-  /about/privacy/: page-privacy
 
 collections:
   /:
