@@ -1604,9 +1604,6 @@ TAGS & LABELS CSS
 }
 
 .tag-title {
-	font-size: 1.5em;
-	text-shadow: none;
-	color: var(--text-color) !important;
 	padding: 10px;
 	font-weight: 600;
 	margin-top: 15px;
