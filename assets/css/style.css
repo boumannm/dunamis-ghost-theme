@@ -990,9 +990,10 @@ img.avatar {
 }
 
 .avatar-page {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 150px;
+  margin-top: 20px;
 }
 
 .avatar-page-author {
@@ -1620,10 +1621,10 @@ TAGS & LABELS CSS
 }
 
 .tag-image {
-	width: 100px;
-	height: 100px;
-	border-radius: 15px;
-  margin-top: 20px;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+  margin-top: 25px;
 }
 
 .tag-title {
