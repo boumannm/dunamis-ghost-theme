@@ -752,6 +752,7 @@ a
 }
 
 .post-options {
+  font-size: 0.85rem;
 	font-weight: 600;
 	text-transform: uppercase;
 	display: flex;
