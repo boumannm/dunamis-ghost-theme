@@ -1,7 +1,7 @@
 {{#get "tags" limit="10" include="count.posts" order="count.posts desc"}}
           <div class="tagslist">
             {{#foreach tags}}
-                <a href="{{@site.url}}/tag/{{slug}}" class="hvr-grow">#{{name}}</a>
+                <a href="{{@site.url}}/tag/{{slug}}" class="hvr-grow">#{{name}} ({{ count.posts }})</a>
               {{/foreach}}
         </div>
 {{/get}}
