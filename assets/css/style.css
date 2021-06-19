@@ -290,7 +290,7 @@ h4 {
 }
 
 .home-style {
-  background: #fadd0a !important;
+  background: var(--accentcolor-2) !important;
 }
 
 .top-leadin {
