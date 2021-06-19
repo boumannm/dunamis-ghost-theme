@@ -720,6 +720,10 @@ POST/ARTICLE CARD UI - main
   max-width: 100% !important;
 }
 
+.card-actions-bottom {
+  margin-top: 50px;
+}
+
 .theme-row-top {
   margin-top: 35px;
   background: white;
