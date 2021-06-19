@@ -1,6 +1,6 @@
 [
   {
-    "from": "/tag/blog/",
+    "from": "/topic/blog/",
     "to":"/blog/",
     "permanent":true
   },
