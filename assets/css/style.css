@@ -386,6 +386,8 @@ h4 {
 .header-url {
   color: white;
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 700;
   display: flex;
   align-items: center;
   margin-left: 20px;
