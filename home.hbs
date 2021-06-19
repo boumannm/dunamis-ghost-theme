@@ -20,10 +20,10 @@
   <div class="col-12" id="allposts">
    <div class="row main-content content-wrap">
     {{> 'post/card-basic'}}
-    <h1 class="top-leadin text-center">Most talked about topics.</h1>
-      {{> 'post/top-tags'}}
     {{#if pagination}}
     {{pagination}}
     {{/if}}
+    <h1 class="top-leadin text-center">Most talked about topics.</h1>
+    {{> 'post/top-tags'}}
   </div>
   </div>
