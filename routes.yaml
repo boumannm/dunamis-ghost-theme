@@ -5,11 +5,6 @@ collections:
   /:
     permalink: /{slug}/
     template: index
-    filter: primary_tag:-blog
-  /blog/:
-    permalink: /blog/{slug}/
-    template: blog
-    filter: primary_tag:blog
 
 taxonomies:
   tag: /topic/{slug}/
