@@ -651,6 +651,10 @@ div > p > a:hover {
 /* **************************************
   CONTENT MAIN
 *****************************************/
+.main-content {
+  margin-top: 50px;
+}
+
 .top-section-wrap {
   padding: 20px;
 }
