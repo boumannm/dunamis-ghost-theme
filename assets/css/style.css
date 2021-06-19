@@ -1020,6 +1020,7 @@ img.avatar {
 
 .author_wrap {
   padding: 30px;
+  margin-bottom: 50px;
 }
 
 .author_wrap p {
@@ -1606,8 +1607,7 @@ TAGS & LABELS CSS
 .tag-title {
 	padding: 10px;
 	font-weight: 600;
-	margin-top: 15px;
-	margin-bottom: 0;
+  margin-bottom: 50px;
 }
 
 .tag-description {
