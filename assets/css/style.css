@@ -1225,11 +1225,6 @@ AUTHOR
   max-height: 175px;
 }
 
-.avatar-page {
-  width: 100px;
-  border-radius: 15px;
-}
-
 .fab.fa-facebook-square.fa-facebook-author.fa-2x,
 .fab.fa-twitter-square.fa-twitter-author.fa-2x {
   color: var(--font-color-primary);
