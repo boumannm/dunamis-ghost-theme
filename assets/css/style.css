@@ -972,9 +972,9 @@ iframe {
 
 img.avatar {
 	border-radius: 150px;
+  border: 1px solid #ebebeb;
 	width: 100%;
 	display: block;
-	padding: 10px;
 	z-index: 200;
 }
 
