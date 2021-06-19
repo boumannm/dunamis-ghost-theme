@@ -1367,6 +1367,10 @@ Responsive
     margin-bottom: 5px;
   }
 
+  .nav-link:hover {
+    text-align: center;
+  }
+
 .row-alt {
   flex-direction: column-reverse !important;
 }
@@ -1449,6 +1453,10 @@ footer {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
+  }
+
+  .nav-link:hover {
+    text-align: center;
   }
 
   .row-alt {
