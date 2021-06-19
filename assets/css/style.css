@@ -1361,6 +1361,10 @@ Responsive
 
 @media (max-width: 575px) {
 
+  .navbar-nav {
+    margin-top: 20px;
+  }
+
   .nav-link {
     text-align: center;
     margin-top: 5px;
@@ -1448,6 +1452,10 @@ footer {
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
+
+  .navbar-nav {
+    margin-top: 20px;
+  }
 
   .nav-link {
     text-align: center;
