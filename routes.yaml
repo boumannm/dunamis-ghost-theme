@@ -12,5 +12,5 @@ collections:
     filter: primary_tag:blog
 
 taxonomies:
-  tag: /tag/{slug}/
-  author: /author/{slug}/cl
+  tag: /topic/{slug}/
+  author: /writer/{slug}/
