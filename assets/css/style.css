@@ -1245,7 +1245,7 @@ AUTHOR
 
 .fab.fa-facebook-square.fa-facebook-author.fa-2x:hover,
 .fab.fa-twitter-square.fa-twitter-author.fa-2x:hover {
-  color: var(--grey-accent);
+  color: var(--accentcolor);
 }
 
 
