@@ -428,6 +428,10 @@ h4 {
   padding-right: 0;
 }
 
+.dropdown-menu {
+  background: var(--accentcolor-2);
+}
+
 .dropdown-item {
   margin-left: 0 !important;
   margin-right: 0 !important;
@@ -460,16 +464,6 @@ h4 {
 
 .nav-link-colorswitch:hover {
   border-bottom: 0 !important;
-}
-
-.dropdown-menu {
-  background: var(--main-bg) !important;
-  color: var(--font-color-primary) !important;
-}
-
-.dropdown-item:hover {
-  color: var(--font-color-banner) !important;
-  background: none !important;
 }
 
 .btn {
