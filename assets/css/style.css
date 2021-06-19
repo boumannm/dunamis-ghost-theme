@@ -653,6 +653,7 @@ div > p > a:hover {
 *****************************************/
 .main-content {
   margin-top: 50px;
+  padding: 30px;
 }
 
 .top-section-wrap {
