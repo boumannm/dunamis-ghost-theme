@@ -1123,8 +1123,8 @@ img.avatar {
 }
 
 .pagination div a:hover {
-  color: var(--grey-accent);
-  background: var( --accentcolor) !important;
+  color: var(--accentcolor-2);
+  background: var(--accentcolor) !important;
 }
 
 .pagination div a:hover i {
