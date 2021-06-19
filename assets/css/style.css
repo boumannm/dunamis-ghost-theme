@@ -1102,7 +1102,8 @@ img.avatar {
 }
 
 .pagination > .active {
-  background: var(--grey-accent);
+  background: var(--accentcolor);
+  color: var(--accentcolor-2);
   text-align: center;
   font-weight: 600;
   padding: 10px;
