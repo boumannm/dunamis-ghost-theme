@@ -1116,7 +1116,6 @@ img.avatar {
   padding: 15px;
   margin-top: 50px;
   margin-bottom: 35px;
-  align-items: baseline;
 }
 
 .pagination > .active {
@@ -1134,11 +1133,11 @@ img.avatar {
 .pagination-prev {
   width: 50px;
   height: 50px;
+  background: var(--ghost-accent-color);
+  border-radius: 5px;
 }
 
 .pagination div a {
-  border: 1px solid var(--grey-accent);
-  border-radius: 5px;
   margin: 5px;
   font-weight: 600;
 }
