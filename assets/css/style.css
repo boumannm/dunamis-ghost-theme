@@ -770,11 +770,12 @@ a
 }
 
 .post-options {
-  font-size: 0.85rem;
 	font-weight: 600;
 	text-transform: uppercase;
 	display: flex;
+  justify-content: space-between;
 	align-items: center;
+  margin-top: 15px;
   margin-left: 3px;
 }
 
