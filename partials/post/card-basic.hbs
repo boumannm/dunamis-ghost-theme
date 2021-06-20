@@ -5,17 +5,15 @@
               <p class="featured-title text-truncate"><a href="{{url}}" title="{{title}}" class="text-center post-title">{{title}}</a></p>
               <p class="subtext-intro">{{excerpt characters="140"}}</p>
               <div class="post-options">
-                <div class="post-author">
+                <div class="post-author flex-column">
                   {{#foreach authors}}
                   <img src="{{#if profile_image}}{{img_url profile_image}}{{/if}}"
                     class="homepage-avatar" alt="{{name}}" title="{{name}}">
                   <a href="{{url}}" title="{{t "Written by"}} {{name}}" class="author-name">{{name}}</a>
                   {{/foreach}}
+                  <time datetime="{{date format=" YYYY-MM-DD"}}" class="post-item-main">{{date format="DD MMMM YYYY"}}</time>
                 </div>
-                {{#has visibility="paid"}}<span class="premium-badge">{{t "Premium"}}</span>{{/has}}{{#has visibility="members"}}<span class="members-badge">{{t "Members-Only"}}</span>{{/has}}
-
-                <time datetime="{{date format=" YYYY-MM-DD"}}" class="post-item-main">{{date format="DD MMMM YYYY"}}</time>
-
+                {{#has visibility="paid"}}<span class="premium-badge">{{t "Premium"}}</span>{{/has}}{{#has visibility="members"}}<span class="members-badge">{{t "Members-Only"}}</span>{{/has}}           
               </div>
             </div>
             <div class="col-sm-12 col-md-4">
