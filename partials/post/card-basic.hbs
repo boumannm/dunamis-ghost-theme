@@ -3,7 +3,9 @@
         {{#foreach posts}}
             <div class="col-sm-12 col-md-7 related-item">
               <p class="featured-title text-truncate"><a href="{{url}}" title="{{title}}" class="text-center post-title">{{title}}</a></p>
-              <p class="subtext-intro">{{excerpt characters="140"}}</p>
+              <p class="subtext-intro">
+
+                {{excerpt characters="140"}}</p>
               <div class="post-options">
                {{#primary_author}}
                   <img src="{{#if profile_image}}{{img_url profile_image}}{{/if}}"
@@ -15,10 +17,7 @@
                   {{/primary_author}}
                   <br />
                   <time datetime="{{date format=" YYYY-MM-DD"}}" class="post-item-main">{{date format="DD MMMM YYYY"}}</time>
-                </div>
-                <div class="post-visibility-badge">
-                    {{#has visibility="paid"}}<span class="premium-badge">{{t "Premium"}}</span>{{/has}}{{#has visibility="members"}}<span class="members-badge">{{t "Members-Only"}}</span>{{/has}}  
-                </div>    
+                </div>  
               </div>
             </div>
             <div class="col-sm-12 col-md-5">
