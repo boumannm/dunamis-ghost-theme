@@ -6,8 +6,9 @@
               <p class="subtext-intro">{{excerpt characters="140"}}</p>
               <div class="post-options">
                {{#primary_author}}
-                  <img src="{{#if profile_image}}{{img_url profile_image}}{{/if}}"
-                    class="homepage-avatar" alt="{{name}}" title="{{name}}">
+                  <a href="{{url}}">
+                    <img src="{{#if profile_image}}{{img_url profile_image}}{{/if}}" class="homepage-avatar" alt="{{name}}" title="{{name}}">
+                  </a>
                   {{/primary_author}}
                 <div class="post-author">
                   {{#primary_author}}
