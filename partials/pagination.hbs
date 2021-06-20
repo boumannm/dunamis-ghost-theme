@@ -1,5 +1,5 @@
 <nav aria-label="Page navigation">
-    <div class="pagination d-flex justify-content-center flex-center-align">
+    <div class="pagination d-flex justify-content-center">
     {{#if prev}}
     <div>
       <a href="{{page_url prev}}" aria-label="Previous">
@@ -7,7 +7,7 @@
       </a>
     </div>
         {{/if}}
-    <div class="active">{{page}}</div>
+    <div class="active flex-center">{{page}}</div>
     {{#if next}}
     <div>
       <a href="{{page_url next}}" aria-label="Next">
