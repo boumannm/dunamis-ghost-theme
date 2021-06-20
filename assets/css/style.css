@@ -736,6 +736,7 @@ POST/ARTICLE CARD UI - main
 
 .post-title {
   color: var(--font-color-primary);
+  font-size: 1.5rem;
   font-weight: 600;
   font-family: 'Fira Sans', sans-serif !important;
 }
