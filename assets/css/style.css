@@ -1130,9 +1130,13 @@ img.avatar {
   height: 50px;
 }
 
-.pagination div a {
+.pagination-next,
+.pagination-prev {
   width: 50px;
   height: 50px;
+}
+
+.pagination div a {
   border: 1px solid var(--grey-accent);
   border-radius: 5px;
   margin: 5px;
