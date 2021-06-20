@@ -687,7 +687,7 @@ div > p > a:hover {
   width: 100vw;
   max-width: 100%;
   margin-bottom: 20px;
-  border-radius: 15px 15px 0 0;
+  border-radius: 15px;
 }
 
 .homepage-image-blog {
@@ -773,7 +773,6 @@ a
 	font-weight: 600;
 	text-transform: uppercase;
 	display: flex;
-  justify-content: space-between;
 	align-items: center;
   margin-top: 15px;
   margin-left: 3px;
@@ -801,6 +800,7 @@ a
   margin-left: 15px;
   border-radius: 5px;
   color: white;
+  border: 2px solid var(--accentcolor-2);
 }
 
 .premium-badge {
