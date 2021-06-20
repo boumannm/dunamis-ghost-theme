@@ -1,7 +1,7 @@
 {{#is "post, page"}}
     {{#get "posts" limit="3" filter="id:-{{id}}+tag:{{primary_tag.slug}}" as |related|}}
 
-    <div class="related max-content-width">
+    <div class="related content-wrap">
         <h2 class="related-header">{{t "Related"}}</h2>
         <div class="row">  
             {{#foreach related}}
