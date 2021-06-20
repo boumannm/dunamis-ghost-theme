@@ -1,7 +1,7 @@
 <div class="card max-content-width post-access-{{visibility}}">
     <div class="row">  
         {{#foreach posts}}
-            <div class="col-sm-12 col-md-8 related-item">
+            <div class="col-sm-12 col-md-7 related-item">
               <p class="featured-title text-truncate"><a href="{{url}}" title="{{title}}" class="text-center post-title">{{title}}</a></p>
               <p class="subtext-intro">{{excerpt characters="140"}}</p>
               <div class="post-options">
@@ -21,7 +21,7 @@
                 </div>    
               </div>
             </div>
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-5">
                 <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{/if}}" class="homepage-image w-100" alt="{{title}}" title="{{title}}"></a>
             </div>
         {{/foreach}}
