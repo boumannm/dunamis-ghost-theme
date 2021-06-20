@@ -1,7 +1,7 @@
 <nav aria-label="Page navigation">
     <div class="pagination d-flex justify-content-center">
     {{#if prev}}
-    <div>
+    <div class="pagination-prev">
       <a href="{{page_url prev}}" aria-label="Previous">
         <i class="fas fa-chevron-left"></i>
       </a>
@@ -9,7 +9,7 @@
         {{/if}}
     <div class="active flex-center">{{page}}</div>
     {{#if next}}
-    <div>
+    <div class="pagination-next">
       <a href="{{page_url next}}" aria-label="Next">
         <i class="fas fa-chevron-right"></i>
       </a>
