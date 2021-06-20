@@ -655,6 +655,10 @@ div > p > a:hover {
   padding: 30px;
 }
 
+.post_template_wrap {
+  margin-bottom: 65px;
+}
+
 .top-section-wrap {
   padding: 20px;
 }
