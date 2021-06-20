@@ -799,8 +799,7 @@ a
   padding: 5px;
   margin-left: 15px;
   border-radius: 5px;
-  color: white;
-  border: 2px solid var(--accentcolor-2);
+  color: var(--accentcolor-2);
 }
 
 .premium-badge {
