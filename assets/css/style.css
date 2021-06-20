@@ -1097,6 +1097,7 @@ img.avatar {
 	text-transform: uppercase;
 	background: var(--ghost-accent-color);
 	padding: 10px;
+  margin-right: 10px;
 	border-radius: 10px;
 	z-index: 10;
 	font-weight: 600;
