@@ -1144,11 +1144,10 @@ img.avatar {
 
 .pagination div a:hover {
   color: var(--accentcolor-2);
-  background: var(--ghost-accent-color) !important;
 }
 
 .pagination div a:hover i {
-    color: var(--regular-white) !important;
+  color: var(--accentcolor-2) !important;
 }
 
 .pagination div i {
