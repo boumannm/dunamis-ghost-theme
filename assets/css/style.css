@@ -1711,50 +1711,6 @@ a svg {
   vertical-align: middle;
 }
 
-.fa-external-link-alt {
-  font-size: 1rem !important;
-}
-
-.fa-download {
-  margin-bottom: 30px;
-}
-
-.fa-circle {
-  font-size: 0.65rem;
-  margin-right: 10px;
-  color: var(--ghost-accent-color);
-}
-
-.top-row-icons {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.fa-check {
-  color: #31b745 !important;
-}
-
-.fa-people-carry {
-  color: var(--font-color-banner);
-}
-
-.fa-images,
-.fa-globe,
-.fa-star,
-.fa-newspaper,
-.fa-users,
-.fa-arrow-right {
-  margin-right: 10px;
-}
-
-.fas.fa-play {
-  margin-right: 5px;
-}
-
-.fa-circle-list {
-  color: var(--ghost-accent-color) !important;
-}
-
 /* ######################
 
 animations
