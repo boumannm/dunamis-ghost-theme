@@ -595,18 +595,6 @@ div > p > a:hover {
   color: var(--accentcolor-2) !important;
 }
 
-.list-group {
-  margin-bottom: 30px;
-}
-
-.list-group-item {
-  padding-left: 0 !important;
-  font-family: 'Open Sans', sans-serif !important;
-  font-size: 1.2rem;
-  color: var(--font-color-primary);
-  padding: 0.8rem 1rem !important;
-}
-
 .theme-list-wrap {
   padding: 25px !important;
 }
