@@ -1394,83 +1394,87 @@ Responsive
     text-align: center;
   }
 
-.row-alt {
-  flex-direction: column-reverse !important;
-}
+  .row-alt {
+    flex-direction: column-reverse !important;
+  }
 
-.row.customtheme-row {
-  padding: 15px;
-}
+  .row.customtheme-row {
+    padding: 15px;
+  }
 
-.top-title {
-  font-size: 2.5rem;
-}
+  .top-title {
+    font-size: 2.5rem;
+  }
 
-.highlight {
-  margin-top: 15px;
-}
+  .highlight {
+    margin-top: 15px;
+  }
 
-.subtext,
-.subtext-home {
-  font-size: 1.2rem !important;
-}
+  .subtext,
+  .subtext-home {
+    font-size: 1.2rem !important;
+  }
 
-.row-top {
-  margin: 0 !important;
-}
+  .row-top {
+    margin: 0 !important;
+  }
 
-.top-section-wrap {
-  flex-direction: column-reverse !important;
-}
+  .top-section-wrap {
+    flex-direction: column-reverse !important;
+  }
 
-.avatar-me {
-  max-width: 165px;
-  max-height: 165px;
-  margin-bottom: 30px;
-}
+  .avatar-me {
+    max-width: 165px;
+    max-height: 165px;
+    margin-bottom: 30px;
+  }
 
-.fancy-hr-alt {
-  margin-top: 50px !important;
-  margin-bottom: 50px !important;
-}
+  .fancy-hr-alt {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+  }
 
-.top-home-wrap {
-  margin-bottom: 50px;
-}
+  .top-home-wrap {
+    margin-bottom: 50px;
+  }
 
-footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+  footer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
-.page-footer {
-  padding: 5px;
-}
+  .page-footer {
+    padding: 5px;
+  }
 
-.getintouch-wrap {
-  margin-bottom: 0;
-}
+  .getintouch-wrap {
+    margin-bottom: 0;
+  }
 
-.button-url-getintouch {
-  padding: 10px 3px 10px !important;
-}
+  .button-url-getintouch {
+    padding: 10px 3px 10px !important;
+  }
 
-.logo-section {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
+  .logo-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
-.top-section-wrap {
-  padding: 0;
-}
+  .top-section-wrap {
+    padding: 0;
+  }
 
-.theme-image-themepage {
-  margin-top: 0;
-}
+  .theme-image-themepage {
+    margin-top: 0;
+  }
 
-.row.post_template_wrap {
-  flex-direction: column-reverse;
-}
+  .row.post_template_wrap {
+    flex-direction: column-reverse;
+  }
+
+  .top-leadin {
+    margin-bottom: 0;
+  }
 
 }
 
@@ -1554,6 +1558,10 @@ footer {
 
   .row.post_template_wrap {
     flex-direction: column-reverse;
+  }
+
+  .top-leadin {
+    margin-bottom: 0;
   }
 }
 
