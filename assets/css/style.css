@@ -311,23 +311,6 @@ h4 {
   font-weight: 700;
 }
 
-.card {
-  background: var(--main-bg) !important;
-  color: var(--font-color-primary);
-}
-
-.card-title a {
-  color: var(--font-color-primary) !important;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-
-.card-title a:hover {
-  color: var(--ghost-accent-color) !important;
-  text-decoration: none;
-}
-
 .top-post-title {
   font-size: 5rem;
   font-weight: 400;
@@ -720,6 +703,20 @@ POST/ARTICLE CARD UI - main
   margin-right: auto;
   border: 0 !important;
   max-width: 100% !important;
+  background: var(--main-bg) !important;
+  color: var(--font-color-primary);
+}
+
+.card-title a {
+  color: var(--font-color-primary) !important;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card-title a:hover {
+  color: var(--ghost-accent-color) !important;
+  text-decoration: none;
 }
 
 .card-actions-bottom {
