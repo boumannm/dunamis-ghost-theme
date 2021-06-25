@@ -6,10 +6,9 @@
 :root {
    /* general accent colors */
    --accentcolor-2: #fadd0a;
-   --accentsubtext: #b51dc2;
 
+  /* other theme colors */
   --main-bg: #fff;
-  /* old color was #fefaf6; */
   --content-bg: #f8f9fa;
   --font-color-primary: #000;
   --font-color-primary-alt: #ebebeb;
@@ -277,15 +276,6 @@ h4 {
   height: 1px !important;
   margin-top: 100px !important;
   margin-bottom: 100px !important;
-}
-
-.row.customtheme-row {
-  padding: 25px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  border-radius: 20px;
-  background: var(--ghost-accent-color);
-  color: var(--font-color-primary-alt);
 }
 
 .home-style {
@@ -1382,10 +1372,6 @@ Responsive
     flex-direction: column-reverse !important;
   }
 
-  .row.customtheme-row {
-    padding: 15px;
-  }
-
   .top-title {
     font-size: 2.5rem;
   }
@@ -1480,10 +1466,6 @@ Responsive
     flex-direction: column-reverse !important;
   }
 
-  .row.customtheme-row {
-    padding: 20px;
-  }
-
   .top-title {
     font-size: 4rem;
   }
@@ -1549,10 +1531,6 @@ Responsive
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
-  
-  .row.customtheme-row {
-    padding: 20px;
-  }
 
   .top-title {
     font-size: 4rem;
