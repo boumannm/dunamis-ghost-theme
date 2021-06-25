@@ -11,13 +11,9 @@
   --main-bg: #fff;
   --content-bg: #f8f9fa;
   --font-color-primary: #000;
-  --font-color-primary-alt: #ebebeb;
-  --font-color-hover: #ebebeb;
-  --font-color-alt: #fff;
   --font-color-banner: #232323;
   --grey-accent: #aaa;
   --offset-color: #ebebeb;
-  --top-section-light-bg: #000;
 }
 
 /* Ghost specific article css */
@@ -528,14 +524,6 @@ div > p > a:hover {
   padding: 10px;
 }
 
-.button-url-alt {
-  color: var(--font-color-primary-alt) !important;
-  text-decoration: none;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-left: 10px;
-}
-
 .button-url-alt:hover {
   text-decoration: none;
   color: var(--accentcolor-2) !important;
@@ -596,15 +584,6 @@ div > p > a:hover {
 
 .eol {
   text-decoration: line-through;
-}
-
-.theme-badge {
-  background: var(--ghost-accent-color);
-  padding: 7px;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  color: var(--font-color-primary-alt);
-  border-radius: 5px;
 }
 
 /* **************************************
