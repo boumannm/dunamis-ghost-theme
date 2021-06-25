@@ -1,6 +1,6 @@
 {
-  "name": "alpha",
-  "description": "Alpha for Ghost.",
+  "name": "dunamis",
+  "description": "Dunamis for Ghost.",
   "version": "1.0.0",
   "engines": {
       "ghost": ">=4.1.0",
@@ -18,9 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/boumannm/alpha-ghost-theme.git"
+    "url": "https://github.com/boumannm/dunamis-ghost-theme.git"
   },
-  "bugs": "https://github.com/boumannm/alpha-ghost-theme.git/issues",
+  "bugs": "https://github.com/boumannm/dunamis-ghost-theme.git/issues",
   "config": {
       "posts_per_page": 6
   },
