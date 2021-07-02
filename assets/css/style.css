@@ -924,6 +924,14 @@ iframe {
   margin-bottom: 20px;
 }
 
+blockquote {
+  margin: 0 0 1rem;
+  background: #f8f8f8;
+  border: 2px solid #ebebeb;
+  border-radius: 5px;
+  padding: 20px;
+}
+
 /* **************************************
 	ARTICLE: AUTHOR-section look-n-feel
 *****************************************/
