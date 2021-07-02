@@ -991,7 +991,8 @@ img.avatar {
 }
 
 .author-socials {
-	font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .author-bio-text h3 {
