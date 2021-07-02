@@ -888,6 +888,10 @@ POST/ARTICLE HEADERS
   margin-right: 20px;
   line-height: 30px;
   padding: 10px;
+  color: var(--font-color-banner) !important;
+  font-family: 'Crimson Text', serif !important;
+  font-size: 1.3rem !important;
+  font-weight: 700;
 }
 
 .post-content ol li {
@@ -895,6 +899,10 @@ POST/ARTICLE HEADERS
   margin-right: 20px;
   line-height: 30px;
   padding: 10px;
+  color: var(--font-color-banner) !important;
+  font-family: 'Crimson Text', serif !important;
+  font-size: 1.3rem !important;
+  font-weight: 700;
 }
 
 .post-content a {
