@@ -1261,11 +1261,10 @@ footer {
 
 .footer-url-section a {
     color: black !important;
-    text-decoration: none;
+    font-weight: 700;
 }
 
 .footer-url-section a:hover {
-    text-decoration: none;
     color: var(--ghost-accent-color) !important;
 }
 
