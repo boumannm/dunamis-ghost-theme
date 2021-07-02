@@ -908,6 +908,7 @@ POST/ARTICLE HEADERS
 
 .post-content a {
   color: var(--font-color-primary);
+  font-weight: 700;
 }
 
 .post-content a:hover {
