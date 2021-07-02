@@ -885,7 +885,6 @@ POST/ARTICLE HEADERS
   color: var(--font-color-banner) !important;
   font-family: 'Crimson Text', serif !important;
   font-size: 1.3rem !important;
-  font-weight: 700;
 }
 
 .post-content ol li {
@@ -896,12 +895,10 @@ POST/ARTICLE HEADERS
   color: var(--font-color-banner) !important;
   font-family: 'Crimson Text', serif !important;
   font-size: 1.3rem !important;
-  font-weight: 700;
 }
 
 .post-content a {
   color: var(--font-color-primary);
-  font-weight: 700;
 }
 
 .post-content a:hover {
