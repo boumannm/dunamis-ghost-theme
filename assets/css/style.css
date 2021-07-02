@@ -228,7 +228,10 @@ header {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif !important;
+  color: var(--font-color-banner) !important;
+  font-family: 'Crimson Text', serif !important;
+  font-size: 1.3rem !important;
+  font-weight: 700;
 }
 
 ul {
@@ -236,7 +239,8 @@ ul {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'Fira Sans', sans-serif !important;
 }
 
@@ -885,6 +889,10 @@ POST/ARTICLE HEADERS
   margin-right: 20px;
   line-height: 30px;
   padding: 10px;
+  color: var(--font-color-banner) !important;
+  font-family: 'Crimson Text', serif !important;
+  font-size: 1.3rem !important;
+  font-weight: 700;
 }
 
 .post-content ol li {
@@ -892,6 +900,10 @@ POST/ARTICLE HEADERS
   margin-right: 20px;
   line-height: 30px;
   padding: 10px;
+  color: var(--font-color-banner) !important;
+  font-family: 'Crimson Text', serif !important;
+  font-size: 1.3rem !important;
+  font-weight: 700;
 }
 
 .post-content a {
@@ -935,6 +947,13 @@ iframe {
   padding-bottom: 35px;
 }
 
+.author-bio-text {
+  color: var(--font-color-banner) !important;
+  font-family: 'Crimson Text', serif !important;
+  font-size: 1.3rem !important;
+  font-weight: 700;
+}
+
 img.avatar {
 	border-radius: 150px;
   border: 1px solid #ebebeb;
@@ -972,7 +991,8 @@ img.avatar {
 }
 
 .author-socials {
-	font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .author-bio-text h3 {
