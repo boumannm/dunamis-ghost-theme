@@ -334,8 +334,6 @@ h4 {
   color: var(--font-color-banner) !important;
   font-family: 'Crimson Text', serif !important;
   font-size: 1.3rem !important;
-  margin-bottom: 0;
-  padding-bottom: 30px;
 }
 
 /* **************************************
@@ -593,6 +591,9 @@ div > p > a:hover {
 /* **************************************
   CONTENT MAIN
 *****************************************/
+.main-content {
+  margin-top: 50px;
+}
 
 .post_template_wrap {
   margin-bottom: 65px;
