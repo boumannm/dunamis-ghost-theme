@@ -202,12 +202,9 @@ html {
 
 html body {
   background: var(--main-bg);
+  color: var(--font-color-primary);
   margin-left: auto;
   margin-right: auto;
-  color: var(--font-color-banner) !important;
-  font-family: 'Crimson Text', serif !important;
-  font-size: 1.3rem !important;
-  font-weight: 700;
 }
 
 .content-wrap {
