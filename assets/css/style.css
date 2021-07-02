@@ -229,9 +229,8 @@ header {
 
 p {
   color: var(--font-color-banner) !important;
-  font-family: 'Crimson Text', serif !important;
+  font-family: 'Open Sans', sans-serif !important;
   font-size: 1.3rem !important;
-  font-weight: 700;
 }
 
 ul {
@@ -335,7 +334,6 @@ h4 {
   color: var(--font-color-banner) !important;
   font-family: 'Crimson Text', serif !important;
   font-size: 1.3rem !important;
-  font-weight: 700;
 }
 
 /* **************************************
@@ -595,7 +593,6 @@ div > p > a:hover {
 *****************************************/
 .main-content {
   margin-top: 50px;
-  padding: 30px;
 }
 
 .post_template_wrap {
@@ -730,7 +727,6 @@ a
 }
 
 .post-options {
-	font-weight: 600;
 	text-transform: uppercase;
 	display: flex;
 	align-items: center;
@@ -813,7 +809,6 @@ a
 .post-item-main {
   color: var(--font-color-banner);
   text-decoration: none !important;
-  font-weight: 600 !important;
 }
 
 .row-featured {
@@ -861,25 +856,21 @@ POST/ARTICLE HEADERS
 
 .post-content h1 {
   font-size: 210%;
-  font-family: 'Open Sans', sans-serif !important;
   margin-top: 35px;
 }
 
 .post-content h2 {
   font-size: 180%;
-  font-family: 'Open Sans', sans-serif !important;
   margin-top: 35px;
 }
 
 .post-content h3 {
   font-size: 165%;
-  font-family: 'Open Sans', sans-serif !important;
   margin-top: 35px;
 }
 
 .post-content h4 {
   font-size: 140%;
-  font-family: 'Open Sans', sans-serif !important;
   margin-top: 35px;
 }
 
@@ -890,9 +881,8 @@ POST/ARTICLE HEADERS
   line-height: 30px;
   padding: 10px;
   color: var(--font-color-banner) !important;
-  font-family: 'Crimson Text', serif !important;
+  font-family: 'Open Sans', sans-serif !important;
   font-size: 1.3rem !important;
-  font-weight: 700;
 }
 
 .post-content ol li {
@@ -901,9 +891,8 @@ POST/ARTICLE HEADERS
   line-height: 30px;
   padding: 10px;
   color: var(--font-color-banner) !important;
-  font-family: 'Crimson Text', serif !important;
+  font-family: 'Open Sans', sans-serif !important;
   font-size: 1.3rem !important;
-  font-weight: 700;
 }
 
 .post-content a {
@@ -935,6 +924,14 @@ iframe {
   margin-bottom: 20px;
 }
 
+blockquote {
+  margin: 0 0 1rem;
+  background: #f8f8f8;
+  border: 2px solid #ebebeb;
+  border-radius: 5px;
+  padding: 20px;
+}
+
 /* **************************************
 	ARTICLE: AUTHOR-section look-n-feel
 *****************************************/
@@ -949,9 +946,8 @@ iframe {
 
 .author-bio-text {
   color: var(--font-color-banner) !important;
-  font-family: 'Crimson Text', serif !important;
+  font-family: 'Open Sans', sans-serif !important;
   font-size: 1.3rem !important;
-  font-weight: 700;
 }
 
 img.avatar {
@@ -1253,23 +1249,9 @@ footer {
   padding: 50px;
 }
 
-.footer-url-section {
-    color: var(--font-color-banner) !important;
-    font-size: 0.8rem;
-}
-
-.footer-url-section a {
-    color: black !important;
-    text-decoration: none;
-}
-
-.footer-url-section a:hover {
-    text-decoration: none;
-    color: var(--ghost-accent-color) !important;
-}
-
 footer a {
   color: var(--font-color-banner) !important;
+  text-decoration: none;
 }
 
 footer a i {
