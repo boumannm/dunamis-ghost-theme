@@ -1242,22 +1242,9 @@ footer {
   padding: 50px;
 }
 
-.footer-url-section {
-    color: var(--font-color-banner) !important;
-    font-size: 0.8rem;
-}
-
-.footer-url-section a {
-    color: black !important;
-    font-weight: 700;
-}
-
-.footer-url-section a:hover {
-    color: var(--ghost-accent-color) !important;
-}
-
 footer a {
   color: var(--font-color-banner) !important;
+  text-decoration: none;
 }
 
 footer a i {
