@@ -946,6 +946,13 @@ iframe {
   padding-bottom: 35px;
 }
 
+.author-bio-text {
+  color: var(--font-color-banner) !important;
+  font-family: 'Crimson Text', serif !important;
+  font-size: 1.3rem !important;
+  font-weight: 700;
+}
+
 img.avatar {
 	border-radius: 150px;
   border: 1px solid #ebebeb;
