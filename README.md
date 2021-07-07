@@ -19,5 +19,5 @@ Dunamis is my new Bootstrap v5 based theme created for blogs including features 
 - Translation support!
 
 ## 🌎 Localisation
-- English
-- Dutch
+- 🇺🇸 English
+- 🇳🇱 Dutch
