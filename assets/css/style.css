@@ -362,9 +362,6 @@ h4 {
   font-weight: 700;
   display: flex;
   align-items: center;
-  margin-left: 20px;
-  background: var(--ghost-accent-color);
-  color: var(--accentcolor-2) !important;
   padding: 7px;
   border-radius: 10px;
 }
