@@ -1,7 +1,7 @@
 {
   "name": "dunamis",
   "description": "Dunamis for Ghost.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
       "ghost": ">=4.1.0",
       "ghost-api": "v4"
@@ -13,8 +13,8 @@
   },
   "author": {
     "name": "Michael Boumann",  
-    "email": "support@michaelboumann.com",
-    "url": "https://michaelboumann.com"
+    "email": "michael@boumann.dev",
+    "url": "https://michaelboumann.nl"
   },
   "repository": {
     "type": "git",
