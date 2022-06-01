@@ -1,7 +1,7 @@
 ![Master version](https://img.shields.io/github/package-json/v/boumannm/dunamis-ghost-theme/master?style=flat-square)
 ![License](https://img.shields.io/github/license/boumannm/dunamis-ghost-theme?style=flat-square)
 
-# Dunamis for Ghost
+# Dunamis
 Dunamis is my new Bootstrap v5 based theme created for blogs including features like Members-support.
 
 ## 📷 Screenshot
